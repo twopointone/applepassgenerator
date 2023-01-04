@@ -1,0 +1,20 @@
+site_name: Apple Pass Generator
+
+theme:
+  name: material
+
+nav:
+  - Overview: index.md
+  - Configuration: library/configuration.md
+  - Quickstart: library/quickstart.md
+  - Tutorial: library/tutorial.md
+  - References: library/references.md
+  - Changelog: changelog.md
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - pymdownx.superfences:
+      preserve_tabs: true
+  - pymdownx.inlinehilite

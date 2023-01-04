@@ -1,0 +1,50 @@
+# Poetry Ref: https://python-poetry.org/docs/pyproject/
+[tool.poetry]
+name = "applepassgenerator"
+version = "0.0.1"
+description = "Python package to create passes compatible with Apple Wallet."
+authors = ["Primedigital Global <oss@primedigital.tech>"]
+maintainers = [
+    "Vikalp Jain <vikalp@primedigital.tech>",
+    "Vaibhav Sahu <vaibhav@primedigital.tech>",
+    "Hardik Shah <hardik@primedigital.tech>",
+]
+license = "MIT"
+
+readme = "README.md"
+packages = [
+    { include = "applepassgenerator", from = "src" }
+]
+
+homepage = "https://primedigitalglobal.github.io/applepassgenerator"
+repository = "https://github.com/PrimedigitalGlobal/applepassgenerator"
+documentation = "https://primedigitalglobal.github.io/applepassgenerator"
+
+keywords = ["apple pass", "apple wallet", "passbook", "applepassgenerator"]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cryptography = "^37.0.2"
+
+[tool.poetry.dev-dependencies]
+bump2version = "^1.0.1"
+pre-commit = "^2.19.0"
+flake8 = "^5.0.4"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+mkdocs = "^1.3.0"
+mkdocs-material = "^8.3.8"
+mkdocs-material-extensions = "^1.0.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
