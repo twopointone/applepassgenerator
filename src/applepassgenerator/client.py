@@ -1,4 +1,4 @@
-from models import ApplePass
+from applepassgenerator.models import ApplePass
 
 
 class ApplePassGeneratorClient(object):
