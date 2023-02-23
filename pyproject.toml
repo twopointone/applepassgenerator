@@ -1,7 +1,7 @@
 # Poetry Ref: https://python-poetry.org/docs/pyproject/
 [tool.poetry]
 name = "applepassgenerator"
-version = "0.0.1"
+version = "0.0.2"
 description = "Python package to create passes compatible with Apple Wallet."
 authors = ["Primedigital Global <oss@primedigital.tech>"]
 maintainers = [

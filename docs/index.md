@@ -1,6 +1,6 @@
 # Apple Pass Generator
 
-__Version:__ 0.0.1
+__Version:__ 0.0.2
 
 ## Overview
 
