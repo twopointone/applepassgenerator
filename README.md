@@ -60,7 +60,7 @@ To start using the lib, some Apple files are needed, as well as some action in o
 ### 🚀 Usage
 
 ```python
-from applepassgenerator import ApplePassGeneratorClient
+from applepassgenerator.client import ApplePassGeneratorClient
 from applepassgenerator.models import EventTicket
 
 card_info = EventTicket()
