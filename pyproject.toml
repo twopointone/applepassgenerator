@@ -33,7 +33,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-cryptography = "^37.0.2"
+cryptography = "^41.0.1"
 
 [tool.poetry.dev-dependencies]
 bump2version = "^1.0.1"
